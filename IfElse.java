@@ -11,15 +11,15 @@ public class IfElse {
     String resultado;
     resultado = "";
 
-    if (idade >= 0 && idade < 13) {
+    if (idade <= 12) {
       resultado = "infantil";
-    } else if (idade > 12 && idade < 18) {
+    } else if (idade <= 17) {
       resultado = "adolescente";
-    } else if (idade > 17 && idade < 41) {
+    } else if (idade <= 40) {
       resultado = "adulto i";
-    } else if (idade > 40 && idade < 65) {
+    } else if (idade <= 64) {
       resultado = "adulto ii";
-    } else if (idade > 64) {
+    } else {
       resultado = "experiente";
     }
 
